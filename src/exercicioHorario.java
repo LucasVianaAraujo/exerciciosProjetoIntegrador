@@ -11,7 +11,7 @@ public class exercicioHorario {
             System.out.println("Horário inválido");
             return;
         }
-
+    
         System.out.println("Informe o minuto (Exemplo: 17h32 = 32):");
         int minuto = sc.nextInt();
 
