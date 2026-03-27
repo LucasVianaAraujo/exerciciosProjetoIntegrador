@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class exercicioValidacaoLogin {
-    public static void main (String args[]) {
+    public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Email:");
@@ -10,17 +10,12 @@ public class exercicioValidacaoLogin {
         if (email.equalsIgnoreCase("admin")) {
             System.out.println("Senha:");
             String senha = sc.nextLine();
-
             if (senha.equalsIgnoreCase("1234")) {
                 System.out.println("Acesso concedido!");
-            }
-
-            else {
+            } else {
                 System.out.println("Senha incorreta!");
             }
-        }
-
-        else {
+        } else {
             System.out.println("Email incorreto!");
         }
     }
